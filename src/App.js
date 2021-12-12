@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import React from 'react';
+import Table from "./components/main/Table/Table"
+import ControlBar from "./components/main/ControlBar/ControlBar"
+import UserModal from './components/main/UserModal/UserModal';
 
-function App() {
+const App = () => {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <>
+      <ControlBar showRightSide tableId="table1"/>
+      <Table showRightSide tableId="table1" />
+      </>
+      <>
+      <ControlBar showRightSide ={false} tableId="table2"/>
+      <Table showRightSide ={false} tableId="table2" />
+      </>
+      <UserModal/>
     </div>
   );
 }

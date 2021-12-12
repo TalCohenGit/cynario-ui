@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UsersContextProvider from './context/UserAppContext';
+
+export const UsersContext = React.createContext(null);
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <UsersContextProvider>
     <App />
+    </UsersContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

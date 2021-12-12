@@ -1,0 +1,12 @@
+
+
+  .btn {
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    &:hover {
+        filter: brightness(95%)
+    }
+  }
+
+
