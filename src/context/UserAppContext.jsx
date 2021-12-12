@@ -17,8 +17,8 @@ export const UsersContextProvider = ({ children }) => {
 
     useEffect(async() => {
         const res = await getUsers()
+        setUsers({"table1":res,"table2":res})
         console.log("res",res)
-        return () => console.log("oppp")
     }, [])
 
     const addUser = async(userObj) => {
