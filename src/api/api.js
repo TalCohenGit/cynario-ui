@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://2d9b-2a00-7c40-c490-12-e0e8-a21b-9a4e-cadc.ngrok.io';
+const BASE_URL = 'https://protected-lowlands-84769.herokuapp.com';
 
 export const getUsers = async () => {
   try {
