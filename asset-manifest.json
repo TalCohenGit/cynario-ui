@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cynario-ui/static/css/main.e5207f53.chunk.css",
-    "main.js": "/cynario-ui/static/js/main.0df84a7a.chunk.js",
-    "main.js.map": "/cynario-ui/static/js/main.0df84a7a.chunk.js.map",
+    "main.js": "/cynario-ui/static/js/main.45303b8a.chunk.js",
+    "main.js.map": "/cynario-ui/static/js/main.45303b8a.chunk.js.map",
     "runtime-main.js": "/cynario-ui/static/js/runtime-main.4dcf89df.js",
     "runtime-main.js.map": "/cynario-ui/static/js/runtime-main.4dcf89df.js.map",
     "static/js/2.bdaa754c.chunk.js": "/cynario-ui/static/js/2.bdaa754c.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4dcf89df.js",
     "static/js/2.bdaa754c.chunk.js",
     "static/css/main.e5207f53.chunk.css",
-    "static/js/main.0df84a7a.chunk.js"
+    "static/js/main.45303b8a.chunk.js"
   ]
 }
