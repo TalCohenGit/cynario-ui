@@ -1,10 +1,6 @@
 export const data = {
-    table1: [{ date: "2016-01-01", name: "Tom", address: "No 189, Grove St, Los Angeles" },
-    { date: "2018-01-01", name: "Ron", address: "No 222, Pool St, Denver" },
-    { date: "2012-06-03", name: "Dubi", address: "No 130, Franklin St, New York" }],
-    table2: [{ date: "2016-01-01", name: "Tom", address: "No 189, Grove St, Los Angeles" },
-    { date: "2018-01-01", name: "Ron", address: "No 222, Pool St, Denver" },
-    { date: "2012-06-03", name: "Dubi", address: "No 130, Franklin St, New York" }]
+    table1: [],
+    table2: []
 }
 
 
