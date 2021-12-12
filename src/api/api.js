@@ -8,8 +8,6 @@ export const getUsers = async () => {
 
     const users = response.data;
 
-    console.log(`GET: Here's the list of users`, users);
-
     return users;
   } catch (errors) {
     console.error(errors);
@@ -23,10 +21,7 @@ export const insertUser = async (user) => {
       headers:{"Access-Control-Allow-Origin":"*","Content-Type":"application/json"}
       },   
     );
-  
       const newUser = response.data;
-
-      console.log(`Added a new user!`, newUser);
   
       return newUser;
     } catch (errors) {

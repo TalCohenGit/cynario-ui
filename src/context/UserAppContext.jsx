@@ -18,15 +18,13 @@ export const UsersContextProvider = ({ children }) => {
     useEffect(async() => {
         const res = await getUsers()
         setUsers({"table1":res,"table2":res})
-        console.log("res",res)
     }, [])
 
-    const addUser = async(userObj) => {
+    const addUser = (userObj) => {
         const currentUsers = {...users}
         const tables = Object.keys(currentUsers)
 
-        const newUsers = await insertUser(userObj)
-        console.log("newUsers", newUsers)
+        insertUser(userObj)
 
         tables.forEach(table => {
             currentUsers[table] = [...currentUsers[table],userObj]
